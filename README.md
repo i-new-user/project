@@ -1,0 +1,1 @@
+Base example node js, express, typescript application.
