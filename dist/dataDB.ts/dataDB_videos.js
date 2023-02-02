@@ -4,11 +4,11 @@ exports.videos = void 0;
 exports.videos = [
     {
         id: 1,
-        title: "string",
+        title: "111111111111",
         author: "string",
         canBeDownloaded: false,
         minAgeRestriction: null,
-        createdAt: +(new Date()),
+        createdAt: +(new Date().toISOString()),
         publicationDate: +(new Date().setDate(new Date().getDate() + 1)),
         availableResolutions: [
             "P144", "P240", "P360", "P480", "P720", "P1080", "P1440", "P2160"
@@ -16,7 +16,7 @@ exports.videos = [
     },
     {
         id: 2,
-        title: "string",
+        title: "2222222222",
         author: "string",
         canBeDownloaded: false,
         minAgeRestriction: null,
@@ -28,7 +28,7 @@ exports.videos = [
     },
     {
         id: 3,
-        title: "string",
+        title: "333333333",
         author: "string",
         canBeDownloaded: false,
         minAgeRestriction: null,

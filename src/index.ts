@@ -3,7 +3,7 @@ import bodyParser from 'body-parser'
 import cors from 'cors'
 import * as dotenv from 'dotenv'
 import {videosRouter} from './routers/videosRouter'
-
+import {body} from 'express-validator'
 
 
 dotenv.config()
