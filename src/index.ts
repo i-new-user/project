@@ -1,12 +1,14 @@
 import express, {Request, Response} from 'express'
 import bodyParser from 'body-parser'
 import cors from 'cors'
-import * as dotenv from 'dotenv'
-import {videosRouter} from './routers/videosRouter'
 import {body} from 'express-validator'
-
-
+import * as dotenv from 'dotenv'
 dotenv.config()
+import {videosRouter} from './routers/videosRouter'
+import { nextTick } from 'process'
+
+
+
 
 export const app = express()
 const PORT = process.env.PORT
